@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Crust.co</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i>Crispy Crust</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">Rs.2000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">Rs.1500</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">Rs.1800</span>
+                </div>
+            </div>
+            <h3 class="total">total: Rs.5300</h3>
+            <a href="contact.html" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <!-- header section ends -->
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <!-- menu section starts -->
+
+    <section class="menu">
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza-marg">
+                            <div class="info">
+                                <h3>Margherita Pizza</h3>
+                                <p>A classic Italian favorite featuring fresh mozzarella, tomato sauce, basil, and a drizzle of olive oil on a thin crus</p>
+                            </div>
+                            <div class="price">Rs.2000</div>
+                        </div>
+
+                        <div class="box" data-name="pizza-pepp">
+                            <div class="info">
+                                <h3>pepproni pizza</h3>
+                                <p>The timeless crowd-pleaser, loaded with savory pepperoni slices, melted mozzarella, and tangy tomato sauce</p>
+                            </div>
+                            <div class="price">Rs.2000</div>
+                        </div>
+
+                        <div class="box" data-name="pizza-bbq">
+                            <div class="info">
+                                <h3>BBQ Chicken Pizza</h3>
+                                <p> A mouthwatering blend of barbecue sauce, grilled chicken, red onions, and cilantro, creating a delicious fusion of flavors</p>
+                            </div>
+                            <div class="price">Rs.1500</div>
+                        </div>
+
+                        <div class="box" data-name="pizza-veg">
+                            <div class="info">
+                                <h3>Vegetarian Supreme Pizza</h3>
+                                <p>Packed with a colorful assortment of fresh vegetables such as bell peppers, mushrooms, olives, onions, and tomatoes for a veggie delight</p>
+                            </div>
+                            <div class="price">Rs.2000</div>
+                        </div>
+
+                        <div class="box" data-name="pizza-haw">
+                            <div class="info">
+                                <h3>Hawaiian Pizza</h3>
+                                <p>A tropical twist with ham, pineapple, and mozzarella, offering a sweet and savory combination that's both refreshing and satisfying</p>
+                            </div>
+                            <div class="price">Rs.1800</div>
+                        </div>
+
+                        <div class="box" data-name="pizza-sup">
+                            <div class="info">
+                                <h3>Supreme Pizza</h3>
+                                <p>A tantalizing blend of pepperoni, sausage, bell peppers, onions, mushrooms, and black olives for an unparalleled burst of flavor in every bite.</p>
+                            </div>
+                            <div class="price">Rs.2000</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta-spa">
+                            <div class="info">
+                                <h3>Spaghetti</h3>
+                                <p> Classic and versatile, these long, thin strands are a staple in Italian cuisine, commonly paired with various sauces</p>
+                            </div>
+                            <div class="price">Rs.1300</div>
+                        </div>
+
+                        <div class="box" data-name="pasta-fet">
+                            <div class="info">
+                                <h3>Fettuccine Alfredo</h3>
+                                <p>Wide ribbons of pasta bathed in a rich and creamy Alfredo sauce, creating a luxurious and comforting dish.</p>
+                            </div>
+                            <div class="price">Rs.1800</div>
+                        </div>
+
+                        <div class="box" data-name="pasta-pen">
+                            <div class="info">
+                                <h3>Penne alla</h3>
+                                <p>Short, tube-like pasta tossed in a creamy tomato-based sauce, offering a perfect blend of sweetness and savory notes.</p>
+                            </div>
+                            <div class="price">Rs.2300</div>
+                        </div>
+
+                        <div class="box" data-name="pasta-lin">
+                            <div class="info">
+                                <h3>Linguine alle Vongole</h3>
+                                <p>Flat, thin noodles served with a flavorful clam sauce, garlic, white wine, and sometimes a hint of chili for a taste of the sea</p>
+                            </div>
+                            <div class="price">Rs.3000</div>
+                        </div>
+
+                        <div class="box" data-name="pasta-rav">
+                            <div class="info">
+                                <h3>Ravioli</h3>
+                                <p>Pillow-like pasta pockets filled with a variety of delicious stuffings, such as ricotta and spinach or meat, served with a flavorful sauce.</p>
+                            </div>
+                            <div class="price">Rs.1300</div>
+                        </div>
+
+                        <div class="box" data-name="pasta-far">
+                            <div class="info">
+                                <h3>Farfalle </h3>
+                                <p>Delightfully shaped like bowties, these pasta pieces are perfect for catching and holding onto sauces, creating a playful and delicious experience.</p>
+                            </div>
+                            <div class="price">Rs.3300</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet-choc">
+                            <div class="info">
+                                <h3>Chocolate Fondue</h3>
+                                <p>Dive into indulgence with a communal pot of rich, melted chocolate accompanied by a variety of dippables like strawberries, marshmallows, and pieces of cake</p>
+                            </div>
+                            <div class="price">Rs.4700</div>
+                        </div>
+
+                        <div class="box" data-name="sweet-tira">
+                            <div class="info">
+                                <h3>Tiramisu</h3>
+                                <p>A classic Italian dessert featuring layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa, creating a heavenly and velvety treat.</p>
+                            </div>
+                            <div class="price">Rs.3000</div>
+                        </div>
+
+                        <div class="box" data-name="sweet-fru">
+                            <div class="info">
+                                <h3>Fruit Tart</h3>
+                                <p>A delightful combination of buttery pastry crust, luscious pastry cream, and a colorful array of fresh fruits, offering a balance of sweetness and tartness.</p>
+                            </div>
+                            <div class="price">Rs.2500</div>
+                        </div>
+
+                        <div class="box" data-name="sweet-mol">
+                            <div class="info">
+                                <h3>Molten Lava Cake</h3>
+                                <p>Experience pure decadence as you dig into a warm and gooey chocolate cake with a melting center, served with a scoop of vanilla ice cream for the perfect dessert indulgence.</p>
+                            </div>
+                            <div class="price">Rs.5000</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+
+    <!-- menu preview section starts -->
+
+    <section class="menu-preview-container">
+
+        <div id="close" class="fas fa-times"></div>
+
+        <div class="menu-preview" data-target="pizza-marg">
+            <h3>Margherita pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>A classic Italian favorite featuring fresh mozzarella, tomato sauce, basil, and a drizzle of olive oil on a thin crust</p>
+            <div class="price">Rs.2000</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pizza-pepp">
+            <h3>pepproni pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>The timeless crowd-pleaser, loaded with savory pepperoni slices, melted mozzarella, and tangy tomato sauce</p>
+            <div class="price">Rs.2000</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pizza-haw">
+            <h3>Hawaiian pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>A tropical twist with ham, pineapple, and mozzarella, offering a sweet and savory combination that's both refreshing and satisfying</p>
+            <div class="price">Rs.1800</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pizza-bbq">
+            <h3>BBQ Chicken pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>> A mouthwatering blend of barbecue sauce, grilled chicken, red onions, and cilantro, creating a delicious fusion of flavors</p>
+            <div class="price">Rs.1500</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pizza-sup">
+            <h3>Supreme pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>A tantalizing blend of pepperoni, sausage, bell peppers, onions, mushrooms, and black olives for an unparalleled burst of flavor in every bite</p>
+            <div class="price">Rs.2000</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pizza-veg">
+            <h3>Vegetarian Supreme pizza</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Packed with a colorful assortment of fresh vegetables such as bell peppers, mushrooms, olives, onions, and tomatoes for a veggie delight</p>
+            <div class="price">Rs.2000</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+        
+
+        <div class="menu-preview" data-target="pasta-spa">
+            <h3>Spaghetti</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Classic and versatile, these long, thin strands are a staple in Italian cuisine, commonly paired with various sauces</p>
+            <div class="price">Rs.1300</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta-rav">
+            <h3>Ravioli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Pillow-like pasta pockets filled with a variety of delicious stuffings, such as ricotta and spinach or meat, served with a flavorful sauce.</p>
+            <div class="price">Rs.1300</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta-pen">
+            <h3>Penne Alla</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Short, tube-like pasta tossed in a creamy tomato-based sauce, offering a perfect blend of sweetness and savory notes</p>
+            <div class="price">Rs.2300</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta-lin">
+            <h3>Linguine Alle Vongole</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Flat, thin noodles served with a flavorful clam sauce, garlic, white wine, and sometimes a hint of chili for a taste of the sea</p>
+            <div class="price">Rs.3000</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta-fet">
+            <h3>Fettuccine Alfredo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Wide ribbons of pasta bathed in a rich and creamy Alfredo sauce, creating a luxurious and comforting dish</p>
+            <div class="price">Rs.1800</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta-far">
+            <h3>Farfalle</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Delightfully shaped like bowties, these pasta pieces are perfect for catching and holding onto sauces, creating a playful and delicious experience</p>
+            <div class="price">Rs.3300</div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet-choc">
+            <h3>Chocolate Fondue</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p> Dive into indulgence with a communal pot of rich, melted chocolate accompanied by a variety of dippables like strawberries, marshmallows, and pieces of cake</p>
+            <div class="price">Rs.4700 </div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet-fru">
+            <h3>Fruit Tart</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>A delightful combination of buttery pastry crust, luscious pastry cream, and a colorful array of fresh fruits, offering a balance of sweetness and tartness</p>
+            <div class="price">Rs.2500 </div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet-mol">
+            <h3>Molten Lava cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Experience pure decadence as you dig into a warm and gooey chocolate cake with a melting center, served with a scoop of vanilla ice cream for the perfect dessert indulgence.</p>
+            <div class="price">Rs.5000 </div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet-tira">
+            <h3>Tiramisu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>A classic Italian dessert featuring layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa, creating a heavenly and velvety treat </p>
+            <div class="price">Rs.3000 </div>
+            <a href="contact.html" class="btn">add to cart</a>
+        </div>
+
+    </section>
+
+    <!-- menu preview section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Follow for exclusive deals and savings</h3>
+                <div class="share">
+                    <a class ="fab fa-facebook-f" href="https://www.facebook.com/crispycrustict/"></a>
+                    <a class ="fab fa-instagram" href="https://www.instagram.com/crispy_crustict?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"></a>
+                    <a class ="fab fa-twitter" href="https://x.com/crispycrustict?s=11&t=l8xEbuHENtt-UCkVHc937A"></a>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <a class ="btn" href="mailto:231571@students.au.edu.pk">Contact Ibrahim Ahmad</a>
+                <a class ="btn" href="mailto:231664@students.au.edu.pk">Contact Muhammad Ayan</a>
+                <a class ="btn" href="mailto:231544@students.au.edu.pk">Contact Muhammad Saim</a>
+            </div>
+
+
+
+            <div class="box">
+                <h3>location</h3>
+                <p>Plot # 1,East, Marina Heights
+                    Longtime pizza chain known for delivery</p>
+            </div>
+
+        </div>
+        <div class="credit">Created by <span>Ibrahim,Saim and Ayan</span> | all rights reserved!</div>
+
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <!-- custom js link -->
+   <script src="script.js"></script>
+    
+</body>
+</html>
